@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FPluginBootstrapRuntimeModule : public IModuleInterface
+class FAutomationGameModeEditorModule : public IModuleInterface
 {
 public:
 

@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class PluginBootstrapRuntime : ModuleRules
+public class AutomationGameModeEditor : ModuleRules
 {
-	public PluginBootstrapRuntime(ReadOnlyTargetRules Target) : base(Target)
+	public AutomationGameModeEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
@@ -26,6 +26,7 @@ public class PluginBootstrapRuntime : ModuleRules
 			new string[]
 			{
 				"Core",
+				"AutomationGameModeRuntime",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
